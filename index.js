@@ -59,7 +59,7 @@ client.on('ready', () => {
 
 client.on('guildMemberAdd', member => {
 	// Send the message to a designated channel on a server:
-	const channel = client.channels.find("name", "blablachat");
+	const channel = client.channels.find("name", "GREETING");
 	// Do nothing if the channel wasn't found on this server
 	if (!channel) return;
 	// Send the message, mentioning the member
@@ -68,7 +68,7 @@ client.on('guildMemberAdd', member => {
 
 client.on('guildMemberRemove', member => {
 	// Send the message to a designated channel on a server:
-	const channel = client.channels.find("name", "blablachat");
+	const channel = client.channels.find("name", "GOODBYE");
 	// Do nothing if the channel wasn't found on this server
 	if (!channel) return;
 	// Send the message, mentioning the member
@@ -105,7 +105,7 @@ client.on('message', msg => {
 					help_msg += "______________________________\r\n";
 					help_msg += "Topicos de ajuda --------- !help\r\n";
 					help_msg += "Checar Status 	--------- !status\r\n";
-					help_msg += "Foder meu PC  	--------- hack_mode = true / false\r\n";
+					help_msg += "Liberar meu PC	--------- hack_mode = true / false\r\n";
 					help_msg += "\r\n";
 					msg.channel.send(help_msg);
 				}
