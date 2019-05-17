@@ -48,7 +48,7 @@ Nós iremos adicionar o Bot a um servidor agora
 Esse é meu primeiro programa em Node.js então eu creio que não ficou tão limpo e polido quando deveria mas o entendimento dele é bem fácil, vindo de alguém que nunca tivera contato tão direto com a linguagem assim antes.
 
 Basicamente você vaí precisar do **ID do servidor** de mensagens, do nome do seu **canal de voz** e do **TOKEN do Bot** 
-O TOKEN você pode pegar no mesmo lugar onde você criou a aplicação e o Bot para o seu Discord, já o nome e o ID você consegue encontrar na interface geral do Discord basta clicar com o botão dirento em cima do servidor desejado e copiar o ID.
+O TOKEN você pode pegar no mesmo lugar onde você criou a aplicação e o Bot para o seu Discord, já o nome e o ID você consegue encontrar na interface geral do Discord basta clicar com o botão direito em cima do servidor desejado e copiar o ID.
 
 Bom, no arquivo index.js você vai encontrar na *linha 49* e na *linha 82* a palavra **SERVER_ID**, você deve substituí-la pelo **ID do seu servidor**.
 Já na *linha 62* e na *linha 71* você vai encontar a palavra **GREETING** e **GOODBYE** reespectivamente, esses são os nomes dos servidores que você deseja utilizar para mandar mensagens de boas vindas e avisos de remoção de membros. Eu até fiz uma alusão ao VAC Ban da Valve como mensagem, mas sinta-se livre para alterá-la.
